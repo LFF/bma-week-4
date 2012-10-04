@@ -6,10 +6,17 @@ public class Point {
 	 * *
 	 * parameterized constructor
 	 * 
+	 * paramaterized constructor is overriden  to default.
+	 * 
+	 * 
 	 */
 	public static void main(String[] args) {
 		
 		Point point = new Point(10, 33);
+		
+		Point point2 = new Point();
+		
+		
 		
 	}
 	
@@ -26,6 +33,12 @@ public class Point {
 		
 		
 	}
+	
+	
+	Point() {
+		
+	}
+	
 	
 
 }
