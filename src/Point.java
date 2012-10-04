@@ -5,6 +5,8 @@ public class Point {
 	 * @param args
 	 * *
 	 *  to string code
+	 *  
+	 *  By - Reference Semantics
 	 * 
 	 * 
 	 * 
@@ -48,11 +50,35 @@ Point() {
 		
 		
 		
+		System.out.println("Printing points Array");
+	
+		
+		
+		
+	for ( Point point : points) {
+		
+		System.out.println(point);
+	}
+	
+	
+	Point aPoint = points[0];
+	
+	
+	aPoint.y = -255;
+	
+	
+	System.out.println("Printing points Array");
+	
+	
 	
 	for ( Point point : points) {
 		
 		System.out.println(point);
 	}
+	
+	
+	
+	
 	
 	
 	}
