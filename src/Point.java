@@ -3,27 +3,29 @@ public class Point {
 
 	/**
 	 * @param args
-	 * 
-	 * example of default constructor 
+	 * *
+	 * parameterized constructor
 	 * 
 	 */
 	public static void main(String[] args) {
 		
-		Point point = new Point();
+		Point point = new Point(10, 33);
 		
-		point.x = 10;
-		point.y = 33;
-		
-		
-					
-		
-		// TODO Auto-generated method stub
-
 	}
 	
 	int x;
 	int y;
 	
+	
+	Point(int x, int y) {
+		
+		
+		this.x = x;
+		this.y = y;
+				
+		
+		
+	}
 	
 
 }
