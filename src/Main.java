@@ -3,6 +3,9 @@ public class Main {
 
 	/**
 	 * @param args
+	 * 
+	 * static variable added  
+	 * 
 	 */
 	public static void main(String[] args) {
 		
@@ -16,9 +19,16 @@ public class Main {
 
 	}
 	
+	
+	
+	static String helloMessage = "Hello World!";
+	
+	
+	
+	
 	static String getHelloMessage() {
 		
-		return "Hello World!";
+		return helloMessage;
 		
 	}
 	
