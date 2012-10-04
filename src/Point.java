@@ -8,6 +8,9 @@ public class Point {
 	 * 
 	 * paramaterized constructor is overriden  to default.
 	 * 
+	 * explict no-argument constructor
+	 * 
+	 * 
 	 * 
 	 */
 	public static void main(String[] args) {
@@ -37,6 +40,11 @@ public class Point {
 	
 	Point() {
 		
+		
+		this.x = 0;
+		this.y = 0;
+		
+				
 	}
 	
 	
