@@ -10,6 +10,9 @@ public class Point {
 	 * 
 	 * explict no-argument constructor
 	 * 
+	 * delegating constructors
+	 * 
+	 * 
 	 * 
 	 * 
 	 */
@@ -41,8 +44,7 @@ public class Point {
 	Point() {
 		
 		
-		this.x = 0;
-		this.y = 0;
+		this(0, 0);
 		
 				
 	}
